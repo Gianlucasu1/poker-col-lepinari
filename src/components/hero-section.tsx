@@ -5,7 +5,7 @@ export default function HeroSection() {
   return (
     <section className="relative overflow-hidden py-20 md:py-28">
       <div className="absolute inset-0 bg-gradient-to-b from-[#0D1B2A] to-[#121212] z-0"></div>
-      <div className="container relative z-10 mx-auto px-4">
+      <div className="max-w-7xl mx-auto container relative z-10 mx-auto px-4">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
           <div className="space-y-6">
             <h1 className="text-4xl md:text-5xl font-bold text-white leading-tight">
